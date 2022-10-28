@@ -434,12 +434,14 @@ form textarea{
     font-size: 20px;
     border-radius: 0.5rem;
     padding: 10px;
+    
 }
 
 .top{
-    position: fixed;
+    
+    position:fixed;
     bottom: 2.1rem;
-    right: 2.1remb;
+    right: 2.1rem;
 }
 
 @media (max-width:1325px){
