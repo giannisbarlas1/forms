@@ -456,7 +456,7 @@ section{
     padding:130px 3% 60px;
 }
 }
-@media (max-width:1325px){
+@media (min-width: 414px){
     :root{
         --h1-font: 4.2rem;
         --h2-font: 2.9rem;
@@ -486,7 +486,7 @@ section{
 }
 
 
-@media (min-width:1325px){
+@media (min-width: 414px){
     #menu-icon{
         display: block;
 
