@@ -252,6 +252,10 @@ transition: all .40s ease;
     line-height: 30px;
 }
 
+.box:hover h3{
+    color: var(--main-color);
+
+}
 
 
 
@@ -259,10 +263,6 @@ transition: all .40s ease;
 .box:hover{
     transform: scale(1.01);
     border-top:5px solid var(--main-color);
-}
-.box:hover h3{
-    color: var(--main-color);
-
 }
 
 
@@ -485,12 +485,156 @@ section{
 .contact{
     grid-template-columns: 1fr;
 }
+
+.home-text h1{
+    margin: 20px 0;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: 2px;
+ }
+
+
+ .home-text h4{
+    color:var(--main-color);
+    font-size:54px;
+    font-weight:600;
+ }
+
+ .home-text h3{
+    font-size:54px;
+    font-weight:600;
+    margin-bottom:3rem;
+ }
+
+
+
+
+ .about-text h4{
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: 600;
+
+
+}
+
+.about-text h2{
+    font-size: 30px ;
+}
+
+
+
+.about-text h2{
+font-size :40px;
+}
+
+
+.about-text p{
+    color: var(--second-color);
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+.about-gri{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+    align-items:center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.about-in h5{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+
+.box h3{
+    font-size:34px;
+    font-weight:600;
+    margin: 15px 0;
+    transition: all .40s ease;
+    
+    }
+    
+    .box p{
+        color:var(--second-color);
+        font-size:34px;
+        line-height: 30px;
+    }
+    
+    .box:hover h3{
+        color: var(--main-color);
+    
+    }
+    
+
+
+
+
+
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap:center;
+    }
+    .contact-text h4{
+        margin: 15px 0;
+        color: var(--main-color);
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .contact-text h2{
+        font-size: 30px;
+       
+    }
+    .contact-list {
+        margin-bottom: 1rem;
+    }
+    
+    
+    .contact-list li{
+        margin-bottom: 1rem;
+        display: block;
+    }
+    
+    .contact-list li a{
+        display: block;
+        color: var(--second-color);
+        font-size:30px;
+        font-weight: 600;
+        transition: all .4s ease;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
 @media (max-width:1024px){
     #menu-icon{
         display: block;
+        size: 200px;
 
     }
     .navbar{
